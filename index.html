@@ -436,18 +436,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Tenetur cumque dolorum, fugit, molestiae facere
-                asperiores ad, obcaecati nam eius cupiditate
-                repudiandae recusandae dolore odio ex eligendi?
-                Voluptatem qui similique fugiat.
-            </p>
-            <button data-modal-close>Закрыть</button>
+            <button class="button-close" data-modal-close>Close</button>
+
         </div>
     </div>
-    <script>
-        (() => {
+    <script>   (() => {
             const refs = {
                 openModalBtn: document.querySelector('[data-modal-open]'),
                 closeModalBtn: document.querySelector('[data-modal-close]'),
@@ -461,8 +454,8 @@
                 refs.modal.classList.toggle('is-hidden');
             }
         })();
-
     </script>
+
 </body>
 
 </html>
