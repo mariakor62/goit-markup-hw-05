@@ -872,18 +872,20 @@ border-radius: 4px;
   box-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
   background-color: #FFFFFF;
 }
-.button-close {
+.button >.button-close {
   position: absolute;
   top: 0;
   right: 0;
+
   border-radius: 50%;
+  border-color: #757575;
   padding-top: 8px;
   padding-right: 8px;
-  outline: 1px solid red;
+  outline: 1px solid black ;
 }
 .modal-icon {
-  width: 18px;
-  height: 18px;
+  width: 11px;
+  height: 11px;
   fill: #000000;
 }
  
