@@ -864,7 +864,7 @@ img {
   box-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
   background-color: #FFFFFF;
 }
-.button-close {
+/* .button-close { */
   position: absolute;
   top: 0;
   right: 0;
@@ -876,10 +876,10 @@ img {
   border-color: #757575;
   padding-top: 8px;
   padding-right: 8px;
-}
-.modal-icon {
+/* } */
+/* .modal-icon { */
   stroke: rgba(0, 0, 0, 0.1);
   fill: #2F303A;
-}
+/* } */
  
   
