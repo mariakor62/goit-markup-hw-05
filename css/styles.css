@@ -868,7 +868,9 @@ img {
   fill: #000000;
 }
 
-
+.button.button.close {
+  background-color: transparent;
+}
 
 /* .button-close { */
   /* position: absolute; */
