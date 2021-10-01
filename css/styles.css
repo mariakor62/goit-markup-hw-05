@@ -862,14 +862,32 @@ img {
   width: 530px;
   border-radius: 4px;
   box-shadow: 0px, 4px rgba(0, 0, 0, 0.25);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
+
 .modal-icon {
   fill: #000000;
 }
 
-.button.button.close {
-  background-color: transparent;
+.button-close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 8px;
+  
+
 }
 
 /* .button-close { */
